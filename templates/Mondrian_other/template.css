@@ -1,0 +1,196 @@
+@font-face {
+    font-family: 'gaoduanhei';
+    src: url('../assets/fonts/gaoduanhei.ttf');
+}
+@font-face {
+    font-family: 'NotoSansHans-DemiLight';
+    src: url('../assets/fonts/NotoSansHans-DemiLight.otf');
+}
+@font-face {
+    font-family: 'xintangren';
+    src: url('../assets/fonts/xintangren.ttf');
+}
+skill-description {
+    font-size: 0.75em;
+}
+
+.outline {
+    padding-top : 25px;
+    padding-bottom : 25px;
+    padding-left : 25px;
+
+    width: 430px;
+    /*height: 620px;*/
+}
+
+.card {
+    position: relative;
+    width: 400px;
+    height: 560px;
+    border-radius: 15px;
+    border: 1px solid black;
+    background-color: white;
+}
+
+.frame-top {
+    position: absolute;
+    top: 68px;
+    left: 15%;
+    width: 82%;
+    height: 5%;
+    border-color: #EDAB24;
+    border-style: solid;
+    border-width: 6px 0px 0px 0px;
+}
+
+.frame-right {
+    position: absolute;
+    bottom: 8%;
+    right: 8%;
+    width: 5%;
+    height: 88%;
+    border-color: #B22311;
+    border-style: solid;
+    border-width: 0px 5px 0px 0px;
+}
+
+.blur-background {
+    position: absolute;
+    top: 0;
+    right: 0;
+    -webkit-filter: blur(12px);
+    -moz-filter: blur(12px);
+    -o-filter: blur(12px);
+    -ms-filter: blur(12px);
+    filter: blur(12px);
+    width: 15%;
+    height: 115px;
+    background-color: white;
+    opacity: 1.00;
+}
+
+.suit {
+    position: absolute;
+    height:60px;
+    font-size:200%;
+    top: 1.3%;
+    right:14%;
+    background-color: white;
+    opacity: 1.0;
+}
+
+.card-number {
+    position:absolute;
+    font-size: 1.5em;
+    padding-left: 6px;
+    font-family: Sans-serif;
+}
+
+.card-suit {
+    position: absolute;
+    top: 53px;
+    padding-left: 4px;
+    font-size: 1.5em;
+}
+
+.card-image {
+    position: relative;
+    width: 86%;
+    height: 62%;
+    margin: 20% 7%;
+    background-size: cover;
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 5px 5px 5px 5px white inset;
+}
+
+.card-header {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+}
+.clan {
+    font-size: 4.0em;
+    margin: 2% 3% 2% 8%;
+    display: inline-block;
+    vertical-align: top;
+    font-family: 'gaoduanhei';
+    color: black;
+    text-shadow: 0px 0px 0px #424242;
+}
+.blood {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 6%;
+    width: 30px;
+    height: 30px;
+    background-size: auto 100%;
+    background-image: url("../assets/blood.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.profile-section {
+    position: absolute;
+    top: 100px;
+    left: 2%;
+    width: 96%;
+    opacity: 0.9;
+    border-radius: 5px;
+}
+.nickname {
+    font-family: 'xintangren';
+    font-size: 1.7em;
+    margin: 2%;
+    width: 5%;
+    color: #273268;
+    text-shadow: 2px 2px 2px white;
+}
+.name {
+    font-family: 'xintangren';
+    font-size: 3.0em;
+    margin: 20px 0px 0px 0px;
+    width: 5%;
+    color: #273268;
+    text-shadow: 0px 0px 0px white;
+}
+.skill-section {
+    position: absolute;
+    bottom: 5%;
+    left: 7%;
+    width: 86%;
+    background-color: #E0E0E0;
+    opacity: 0.90;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.skill-block {
+    margin: 10px;
+}
+.skill-block div {
+    display: inline-block;
+    vertical-align: top;
+}
+.skill-title-content {
+    font-family: 'gaoduanhei';
+    font-size: 1.6em;
+    width: 15%;
+}
+.skill-description-content {
+    font-family: 'NotoSansHans-DemiLight';
+    font-size: 1.0em;
+    width: 80%;
+}
+
+.card_type {
+    position: absolute;
+    left: 3%;
+    bottom: 0%;
+    width: 100px;
+    height: 60px;
+    background-size: auto 100%;
+    background-image: url("../assets/jinnang.png");
+    background-repeat: no-repeat;
+}
