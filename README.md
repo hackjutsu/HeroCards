@@ -47,4 +47,4 @@ Q: 中文字体能够商用么？ A: 可以。
 Q: 可以修改主题吗？ A: 可以在templates文件夹中建立自己的html template。
 
 ## License
-MIT
+[MIT@CosmoX](./LICENSE.md)
