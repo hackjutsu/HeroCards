@@ -1,4 +1,9 @@
+>Note: This project creates custom character cards(like Bang!) based on users' input. It's optimized for Chinese characters, and won't work for western languages out of box. (Might work for Japanese and Korean.) Therefore only Chinese instruction is provided here. 
+>
+>Please let me know if you want other language support.
+
 # 英雄卡牌生成器
+
 利用`HTML`+`CSS`+`NodeJS`+`PhantomJS`生成三国杀风格的人物卡牌。
 
 ![](./samples/biaozhunbao2.png)
