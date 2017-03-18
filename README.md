@@ -16,7 +16,7 @@ node automation.js
 - jpg/jpeg/JPG/JPEG
 
 ### 例子
-`./data/`中有`zhangsanfeng.json`和`zhangsanfeng.jpg`。 其中JSON文件内容如下：
+`./data/`中有`zhangsanfeng.json`和`zhangsanfeng.jpg`。 其中JSON文件内容如下:
 
 ```
 {
@@ -38,6 +38,8 @@ node automation.js
 }
 ```
 
+> Note: `skills_group`可以省略，详情参考[issue #1](https://github.com/hackjutsu/HeroCards/issues/1)
+
 ## FAQ
 Q: 会制作一个GUI方便大家使用吗？
 A: 欢迎PR。
@@ -46,5 +48,8 @@ Q: 中文字体能够商用么？ A: 可以。
 
 Q: 可以修改主题吗？ A: 可以在templates文件夹中建立自己的html template。
 
+## 打印效果
+[![WechatIMG1.jpg](https://s20.postimg.org/dsel09rzx/Wechat_IMG1.jpg)](https://postimg.org/image/5a54vxlh5/)
+
 ## License
-[MIT@CosmoX](./LICENSE.md)
+[MIT @CosmoX](./LICENSE)
